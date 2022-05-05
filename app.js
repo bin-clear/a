@@ -26,3 +26,18 @@ const text2021 = document.querySelector('.text2021')
 text.addEventListener('click',function(){
     box_button2021.classList.remove('box_button_open2021')
 });
+
+
+
+const text_button2022 = document.querySelector('.text_button2022')
+const box_button2022 = document.querySelector('.box_button2022')
+for (const opens of imgContainer){
+    opens.addEventListener('click',function(){
+        text_button2022.classList.add('text_open2022')
+        box_button2022.classList.add('box_button_open2022')
+    });
+}
+const text2022 = document.querySelector('.text2022')
+text.addEventListener('click',function(){
+    box_button2022.classList.remove('box_button_open2022')
+});

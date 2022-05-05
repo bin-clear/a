@@ -136,6 +136,41 @@ body
 .text_open2021{
     display: flex !important;
 }
+
+
+
+
+.box_button2022 {
+    margin-top: 60px;
+    padding: 20px;
+    background: rgba(0, 255, 255, 0.307);
+    border-radius: 3px;
+    display: none;
+}
+.box_button_open2022{
+    display: block;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.3s;
+}
+
+.box_button2022 .text_button2022{
+    color: #fff;
+    font-weight: 900;
+    background-color: rgba(0, 255, 255, 0.307);
+    border-radius: 4px;
+    text-decoration: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_button2022 .text_button2022 .text2022{
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.48);
+}
+.text_open2022{
+    display: flex !important;
+}
 @media (max-width: 330px){
     .container .card .imgContainer{
         left: -2px;
